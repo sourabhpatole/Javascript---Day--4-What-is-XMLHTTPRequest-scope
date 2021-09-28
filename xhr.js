@@ -8,7 +8,7 @@ const getBlogs = () => {
         const so = xhr.response;
         for (let blog of so) {
             // console.log(blog)
-            console.log(blog.name, blog.region, blog.subregion, blog.population)
+            console.log(blog.name, blog.region, blog.subregion, blog.population, blog.flag)
 
 
         }
